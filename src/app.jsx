@@ -1,32 +1,17 @@
 import { signal, effect } from '@preact/signals'
-import preactLogo from './assets/preact.svg'
-import viteLogo from '/vite.svg'
+import { h, Router } from 'preact-router'
 import './app.css'
-import { Fragment } from 'preact'
+import { render } from 'preact'
+import Home from './pages/home'
+import Bio from './pages/bio'
+import Portfolio from './pages/portfolio'
 
-export function App() {
-  const [count, setCount] = signal(0)
+const App = () => (
+  <Router>
+    <Home path="/" />
+    <Bio path="/bio" />
+    <Portfolio path="/portfolio" />
+  </Router>
+);
 
-  effect(() => {
-    console.log(`Count is ${count()}`)
-  })
-
-  return (
-    <Fragment>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} class="logo" alt="Vite logo" />
-        </a>
-        <a href="https://preactjs.com" target="_blank">
-          <img src={preactLogo} class="logo preact" alt="Preact logo" />
-        </a>
-      </div>
-      <h1>Vite + Preact</h1>
-      <div class="card">
-        <button onClick={() => setCount(count() + 1)}>
-          count is {count()}
-        </button>
-      </div>
-    </Fragment>
-  )
-}
+render(<App />, document.body)
