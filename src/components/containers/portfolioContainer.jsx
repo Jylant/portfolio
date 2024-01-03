@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectBlock from '../components/ProjectBlock';
+import ProjectBlock from '../blocks/projectBlock.jsx';
 import { signal, effect } from '@preact/signals';
 
 const projectsSignal = signal([

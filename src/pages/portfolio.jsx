@@ -1,5 +1,5 @@
 import { h, Fragment } from 'preact';
-import PortfolioContainer from './PortfolioContainer';
+import PortfolioContainer from '../components/containers/PortfolioContainer';
 
 function Portfolio() {
     return (
