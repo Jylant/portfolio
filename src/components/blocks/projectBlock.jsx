@@ -1,4 +1,5 @@
 import React from 'react';
+import PortfolioContainer from '../containers/PortfolioContainer';
 
 const ProjectBlock = () => {
     return (

@@ -1,11 +1,12 @@
 import { h, Fragment } from 'preact';
+import PortfolioContainer from '../components/containers/PortfolioContainer';
 
 function Portfolio() {
     return (
         <Fragment>
             <h1>My Portfolio</h1>
-            <p>Welcome to my portfolio webpage!</p>
-            {/* Add your portfolio content here */}
+            <p>Below you can see the projects in which I have participated.</p>
+            <PortfolioContainer />
         </Fragment>
     );
 }
