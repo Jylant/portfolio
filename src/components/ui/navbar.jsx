@@ -1,21 +1,17 @@
 import { Link } from 'preact-router';
+import '../../styles/navbar.scss';
 
 const Navbar = () => {
+    const navItems = ['Home', 'About', 'Contact', 'Portfolio']; // Replace with your actual navigation items
+
     return (
-        <nav className='navbar'>
-            <ul className='navlist'>
-                <li className='navlink'>
-                    <Link href="/">Home</Link>
-                </li>
-                <li className='navlink'>
-                    <Link href="/bio">Bio</Link>
-                </li>
-                <li className='navlink'>
-                    <Link href="/contact">Contact</Link>
-                </li>
-                <li className='navlink'>
-                    <Link href="/portfolios">Portfolios</Link>
-                </li>
+        <nav className="navbar">
+            <ul className="navlist">
+                {navItems.map((item, index) => (
+                    <li key={index} className="nav-item">
+                        <Link to={`/${item.toLowerCase()}`}>{item}</Link>
+                    </li>
+                ))}
             </ul>
         </nav>
     );
