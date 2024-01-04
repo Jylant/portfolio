@@ -14,7 +14,7 @@ const Footer = () => {
             <p>Name: {name}</p>
             <p>Email: {email}</p>
             <p>GitHub: <a href={githubLink}>{github}</a></p>
-            <p>© 2023 Your Name. All rights reserved.</p> // Copyright notice
+            <p>© 2024 Antti Jylhä. All rights reserved.</p>
         </footer>
     );
 };
