@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRecoilState } from 'recoil';
-import { languageAtom } from './path_to_your_atom_file';  // replace with the actual path
+import { languageAtom } from '..atoms/lang'  // replace with the actual path
 
 function LanguageSelector() {
   const [language, setLanguage] = useRecoilState(languageAtom);

@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import { github } from 'react-icons-kit/icomoon/github';
+
 
 import '../../styles/footer.scss';
 
@@ -9,13 +9,14 @@ const Footer = () => {
     const githubLink = "https://github.com/jylant";
 
     return (
-        <footer>
-            <p>This is the footer.</p>
+        <>
+        <footer className='footer'>
             <p>Name: {name}</p>
             <p>Email: {email}</p>
-            <p>GitHub: <a href={githubLink}>{github}</a></p>
+            <p>GitHub: <a href={githubLink}>Jylant</a></p>
             <p>© 2024 Antti Jylhä. All rights reserved.</p>
         </footer>
+        </>
     );
 };
 

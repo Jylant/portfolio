@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import Navbar from '../components/ui/navbar';
 import Footer from '../components/ui/footer';
-import style from '../styles/index.scss';
+import '../styles/index.scss';
 
 function About(language) {
     
