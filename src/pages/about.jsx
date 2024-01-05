@@ -3,14 +3,12 @@ import Navbar from '../components/ui/navbar';
 import Footer from '../components/ui/footer';
 import '../styles/index.scss';
 
-function About(language) {
+function About() {
     
     return (
         <div>
-            <Navbar />
             <h1>My Bio</h1>
-            <p>Write your bio here...</p>
-            <Footer />
+            <p>Witness me!</p>
         </div>
     );
 }

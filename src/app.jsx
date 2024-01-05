@@ -6,25 +6,18 @@ import { h, render } from 'preact'
 import Home from './pages/home'
 import About from './pages/About.jsx'
 import Portfolio from './pages/portfolio'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import { Navbar } from './components/ui/navbar'
-import { Footer } from './components/ui/footer'
+import Navbar from './components/ui/navbar.jsx'
+import Footer from './components/ui/footer.jsx'
 
 
 export const App = () => (
-  <BrowserRouter>
-      <Navbar />
-        <Switch>
-          <Route>
-            <Home path="/" />
-          </Route>
-          <Route>
-            <About path="/about" />
-          </Route>
-          <Route>
-            <Portfolio path="/portfolio" />
-          </Route>
-        </Switch>
-      <Footer />
-  </BrowserRouter>
+  <>
+    <Navbar />
+    <Router>
+      <Home path="/" />
+      <About path="/about" />
+      <Portfolio path="/portfolio" />
+    </Router>
+    <Footer />
+  </>
 );
