@@ -1,0 +1,35 @@
+{   
+    "Project1" : {
+        "name" : "Placeholder",
+        "description" : "Project description goes here",
+        "image" : "https://via.placeholder.com/150",
+        "link" : "https://www.google.com",
+        "role" : "Full Stack Developer",
+        "tech" : "HTML, CSS, JavaScript, React, Java, Spring, postgreSQL",
+        "tasks" : {
+            "task1" : "Task 1",
+            "task2" : "Task 2",
+            "task3" : "Task 3",
+            "task4" : "Task 4",
+            "task5" : "Task 5"
+        },
+        "workDescription" : "Description of my work goes here",
+        "challenges" : "Challenges I faced go here"
+    },
+    "Project2" : {
+        "name" : "Placeholder2",
+        "description" : "Project description goes here",
+        "image" : "https://via.placeholder.com/150",
+        "link" : "https://www.google.com",
+        "role" : "Full Stack Developer",
+        "tech" : "HTML, CSS, JavaScript, React, Java, Spring, postgreSQL",
+        "tasks" : {
+            "task1" : "Task 1",
+            "task2" : "Task 2",
+            "task3" : "Task 3",
+            "task4" : "Task 4"
+        },
+        "workDescription" : "Description of my work goes here",
+        "challenges" : "Challenges I faced go here"
+    }
+}

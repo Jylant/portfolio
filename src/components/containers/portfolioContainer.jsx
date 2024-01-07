@@ -1,25 +1,40 @@
-import React from 'react';
+import { h, Component } from 'preact';
 import ProjectBlock from '../blocks/projectBlock.jsx';
-import { signal, effect } from '@preact/signals';
+import { projectSignal } from '../signals/projecSignal.jsx';
 
-const projectsSignal = signal([
-    // Add your project data here
-    // Each project should have a unique key and relevant information
-    // For example:
-    // { id: 1, title: 'Project 1', description: 'Description 1' },
-    // { id: 2, title: 'Project 2', description: 'Description 2' },
-]);
+class PortfolioContainer extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            projects: []
+        };
+    }
 
-const PortfolioContainer = () => {
-    const projects = effect(projectsSignal);
+    componentDidMount() {
+        projectSignal.subscribe((projects) => {
+            this.setState({ projects });
+        });
+    }
 
-    return (
-        <div>
-            {projects.map((project) => (
-                <ProjectBlock key={project.id} title={project.title} description={project.description} />
-            ))}
-        </div>
-    );
-};
+    componentWillUnmount() {
+        projectSignal.unsubscribeAll();
+    }
+
+    render() {
+        return (
+            <div>
+                {this.state.projects.map((project) => (
+                    <ProjectBlock
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        image={project.image}
+                        url={project.url}
+                    />
+                ))}
+            </div>
+        );
+    }
+}
 
 export default PortfolioContainer;
