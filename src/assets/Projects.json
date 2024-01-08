@@ -2,16 +2,16 @@
     "Project1" : {
         "name" : "Placeholder",
         "description" : "Project description goes here",
-        "image" : "https://via.placeholder.com/150",
+        "image" : "https://via.placeholder.com/200",
         "link" : "https://www.google.com",
-        "role" : "Full Stack Developer",
+        "myRole" : "Full Stack Developer",
         "tech" : "HTML, CSS, JavaScript, React, Java, Spring, postgreSQL",
         "tasks" : {
-            "task1" : "Task 1",
-            "task2" : "Task 2",
-            "task3" : "Task 3",
-            "task4" : "Task 4",
-            "task5" : "Task 5"
+            "task1" : "ER diagram",
+            "task2" : "Navbar",
+            "task3" : "Backend for API calls",
+            "task4" : "Backend for database, partly",
+            "task5" : "Frontend for user generated content (unfinished)"
         },
         "workDescription" : "Description of my work goes here",
         "challenges" : "Challenges I faced go here"
@@ -21,13 +21,13 @@
         "description" : "Project description goes here",
         "image" : "https://via.placeholder.com/150",
         "link" : "https://www.google.com",
-        "role" : "Full Stack Developer",
-        "tech" : "HTML, CSS, JavaScript, React, Java, Spring, postgreSQL",
+        "role" : "Website Developer",
+        "tech" : "HTML, CSS, JavaScript, React, preact",
         "tasks" : {
-            "task1" : "Task 1",
-            "task2" : "Task 2",
-            "task3" : "Task 3",
-            "task4" : "Task 4"
+            "task1" : "Design simple and responsive layout",
+            "task2" : "Create website as a SPA",
+            "task3" : "Add functionality to website",
+            "task4" : "Release website"
         },
         "workDescription" : "Description of my work goes here",
         "challenges" : "Challenges I faced go here"

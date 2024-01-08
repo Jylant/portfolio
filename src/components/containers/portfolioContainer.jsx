@@ -23,13 +23,18 @@ class PortfolioContainer extends Component {
     render() {
         return (
             <div>
-                {this.state.projects.map((project) => (
-                    <ProjectBlock
-                        key={project.id}
-                        title={project.title}
+                {this.state.projects.map((project, index) => (
+                    <ProjectBlock className="project-block"
+                        key={index}
+                        title={project.name}
                         description={project.description}
                         image={project.image}
-                        url={project.url}
+                        url={project.link}
+                        myRole={project.myRole}
+                        technologies={project.tech}
+                        myTasks={project.tasks}
+                        workDescription={project.workDescription}
+                        challenges={project.challenges}
                     />
                 ))}
             </div>
