@@ -13,8 +13,6 @@ const ProjectBlock = (
         workDescription,
         challenges
     }) => {
-        // parse the technologies string into an array
-        const techArray = technologies.split(', ');
 
         return (
             <div>
@@ -24,11 +22,7 @@ const ProjectBlock = (
                 <a href={url}>Visit Project</a>
                 <p>My Role in the project: {myRole}</p>
                 <h3>Technologies used: </h3>
-                <ul>
-                    {techArray.map((tech, index) => (
-                        <li key={index}>{tech}</li>
-                    ))}
-                </ul>
+                <p>{technologies}</p>
                 <h3>My Tasks:</h3>
                 <p>{myTasks}</p>
                 <h3>My Work Description:</h3>

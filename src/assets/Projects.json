@@ -3,7 +3,7 @@
         "name" : "Placeholder",
         "description" : "Project description goes here",
         "image" : "https://via.placeholder.com/200",
-        "link" : "https://www.google.com",
+        "url" : "https://www.google.com",
         "myRole" : "Full Stack Developer",
         "tech" : "HTML, CSS, JavaScript, React, Java, Spring, postgreSQL",
         "tasks" : {
@@ -20,7 +20,7 @@
         "name" : "Placeholder2",
         "description" : "Project description goes here",
         "image" : "https://via.placeholder.com/150",
-        "link" : "https://www.google.com",
+        "url" : "https://www.google.com",
         "role" : "Website Developer",
         "tech" : "HTML, CSS, JavaScript, React, preact",
         "tasks" : {

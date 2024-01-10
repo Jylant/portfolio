@@ -1,14 +1,13 @@
 import { h, Fragment } from 'preact';
-import PortfolioContainer from '../components/containers/PortfolioContainer';
-import Navbar from '../components/ui/navbar';
-import Footer from '../components/ui/footer';
+import PortfolioContainer from '../components/containers/portfolioContainer';
+import '../styles/portfolio.scss';
 
 function Portfolio() {
     return (
         <>
         <h1>My Portfolio</h1>
-        <p>Below you can see the projects in which I have participated.</p>
-        <PortfolioContainer />
+        <p className='undertext'>Below you can see the projects in which I have participated.</p>
+        <PortfolioContainer className='project-container' />
         </>
     );
 }
