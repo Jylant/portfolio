@@ -1,5 +1,7 @@
 import React from 'react';
+import { Fragment } from 'preact';
 import PortfolioContainer from '../containers/portfolioContainer';
+import '../../styles/portfolio.scss'
 
 const ProjectBlock = (
     {
@@ -15,10 +17,10 @@ const ProjectBlock = (
     }) => {
 
         return (
-            <div>
+            <>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <img src={image} alt={title} />
+                <img src={image} alt={title} /> <br />
                 <a href={url}>Visit Project</a>
                 <p>My Role in the project: {myRole}</p>
                 <h3>Technologies used: </h3>
@@ -29,7 +31,7 @@ const ProjectBlock = (
                 <p>{workDescription}</p>
                 <h3>Challenges I faced:</h3>
                 <p>{challenges}</p>
-            </div>
+            </>
         );
 };
 

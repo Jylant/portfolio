@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import ProjectBlock from '../blocks/projectBlock.jsx';
 import { signal } from '@preact/signals';
 import projectData from '../../assets/projects.json';
+import '../../styles/portfolio.scss'
 
 const projectSignal = signal(projectData);
 
@@ -12,7 +13,7 @@ const PortfolioContainer = () => {
         <>
             {projects.map((project, index) => (
                 console.log('project: ', project),
-                <ProjectBlock
+                <ProjectBlock className='project-block'
                     key={index}
                     title={project.title}
                     description={project.description}
