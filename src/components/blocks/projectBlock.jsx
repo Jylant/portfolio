@@ -20,7 +20,8 @@ const ProjectBlock = (
                 <p>{description}</p>
                 <img src={image} alt={title} /> <br />
                 <a href={url}>Visit Project</a>
-                <p>My Role in the project: {myRole}</p>
+                <h3>My Role in the project</h3>
+                <p>{myRole}</p>
                 <h3>Technologies used: </h3>
                 <p>{technologies}</p>
                 <h3>My Tasks:</h3>

@@ -10,7 +10,7 @@
             "task1" : "Design website",
             "task2" : "Create website as a SPA",
             "task3" : "Troubleshoot information flow",
-            "task4" : "Write descriptions",
+            "task4" : "Write descriptions & link projects",
             "task5" : "publish website on github pages"
         },
         "workDescription" : "Solo dev venture",
@@ -18,7 +18,7 @@
     },
     "Project2" : {
         "name" : "Placeholder2",
-        "description" : "Project description goes here",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nulla in velit feugiat sollicitudin nec ornare nibh. Maecenas pharetra lacinia nulla id vehicula. Suspendisse nec consequat magna. Nunc sit amet tristique nulla. Phasellus a est aliquet, lobortis enim sed, vulputate odio. Morbi vehicula condimentum varius. Nullam nunc sapien, mattis nec erat id, auctor pharetra eros. Morbi ac ipsum lorem. Nulla imperdiet dictum lacus, in bibendum nisi bibendum ut.",
         "image" : "https://via.placeholder.com/150",
         "url" : "https://www.google.com",
         "role" : "Website Developer",

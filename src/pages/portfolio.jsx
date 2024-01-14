@@ -7,7 +7,7 @@ function Portfolio() {
         <>
         <h1>My Portfolio</h1>
         <p className='undertext'>Below you can see the projects in which I have participated.</p>
-            <PortfolioContainer className='project-container' />
+            <PortfolioContainer />
         </>
     );
 }
