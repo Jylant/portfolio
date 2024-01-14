@@ -12,6 +12,9 @@ import Footer from './components/ui/footer.jsx'
 
 export const App = () => (
   <>
+    <head>
+      <title>My Portfolio</title>
+    </head>
     <Navbar />
     <Router>
       <Home path="/" />

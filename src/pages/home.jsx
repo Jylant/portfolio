@@ -10,11 +10,11 @@ const Home = () => {
     return (
         <>
         <Navbar />
-            <h1>Welcome to My Portfolio</h1>
-            <p>Greetings!</p>
-            <p>{introduction}</p>
-            <p>{disclaimer}</p>
-            {/* Add your content here */}
+        <h1>Welcome to My Portfolio</h1>
+        <p>Greetings!</p>
+        <p>{introduction}</p>
+        <p>{disclaimer}</p>
+        {/* Add your content here */}
         <Footer />
         </>
     );

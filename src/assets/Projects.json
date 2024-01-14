@@ -1,20 +1,20 @@
 {   
     "Project1" : {
-        "name" : "Placeholder",
-        "description" : "Project description goes here",
-        "image" : "https://via.placeholder.com/200",
-        "url" : "https://www.google.com",
-        "myRole" : "Full Stack Developer",
-        "tech" : "HTML, CSS, JavaScript, React, Java, Spring, postgreSQL",
+        "name" : "Portfolio website",
+        "description" : "I made this website to host my portfolio and some descriptions",
+        "image" : null,
+        "url" : "https://www.github.com/",
+        "myRole" : "Website Developer",
+        "tech" : "Preact, Vite, SCSS",
         "tasks" : {
-            "task1" : "ER diagram",
-            "task2" : "Navbar",
-            "task3" : "Backend for API calls",
-            "task4" : "Backend for database, partly",
-            "task5" : "Frontend for user generated content (unfinished)"
+            "task1" : "Design website",
+            "task2" : "Create website as a SPA",
+            "task3" : "Troubleshoot information flow",
+            "task4" : "Write descriptions",
+            "task5" : "publish website on github pages"
         },
-        "workDescription" : "Description of my work goes here",
-        "challenges" : "Challenges I faced go here"
+        "workDescription" : "Solo dev venture",
+        "challenges" : "My greatest challenge lied in employing the same techniques and technologies I didn't have time to properly implement for my part of the work in the previous school project, namely preact signals. My first approach was too complicated in nature, but I'm really satisfied with the finished product"
     },
     "Project2" : {
         "name" : "Placeholder2",

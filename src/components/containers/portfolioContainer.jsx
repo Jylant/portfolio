@@ -1,8 +1,7 @@
-import { h, Component } from 'preact';
+import { Fragment } from 'preact';
 import ProjectBlock from '../blocks/projectBlock.jsx';
 import { signal } from '@preact/signals';
 import projectData from '../../assets/projects.json';
-import '../../styles/portfolio.scss'
 
 const projectSignal = signal(projectData);
 
@@ -10,23 +9,22 @@ const PortfolioContainer = () => {
     const projects = Object.values(projectSignal.value);
     console.log('projectSignal: ', projects);
     return (
-        <>
+        <div className='project-container'>
             {projects.map((project, index) => (
-                console.log('project: ', project),
-                <ProjectBlock className='project-block'
+                <ProjectBlock
                     key={index}
-                    title={project.title}
+                    title={project.name}
                     description={project.description}
                     image={project.image}
                     url={project.url}
                     myRole={project.myRole}
-                    technologies={project.technologies}
-                    myTasks={project.myTasks}
+                    technologies={project.tech}
+                    myTasks={project.tasks}
                     workDescription={project.workDescription}
                     challenges={project.challenges}
                 />
             ))}
-        </>
+        </div>
     );
 }
 
