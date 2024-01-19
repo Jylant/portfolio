@@ -5,7 +5,7 @@ const ProjectBlock = (
     {
         title,
         description,
-        image,
+        images,
         url,
         myRole,
         technologies,
@@ -18,7 +18,11 @@ const ProjectBlock = (
             <div className='project-block'>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <img src={image} alt={title} /> <br />
+                <ul className='pics'>
+                    {images.map((image, index) => (
+                        <li key={index}><img src={image} alt={title} /><br /></li>
+                    ))}
+                </ul>
                 <a href={url}>Visit Project</a>
                 <h3>My Role in the project</h3>
                 <p>{myRole}</p>
@@ -26,7 +30,7 @@ const ProjectBlock = (
                 <p>{technologies}</p>
                 <h3>My Tasks:</h3>
                 <p>My tasks for the project were:</p>
-                <ul>
+                <ul className='tasks'>
                     {tasks.map((task, index) => (
                         <li key={index}>{task}</li>
                     ))}

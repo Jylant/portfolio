@@ -2,7 +2,7 @@
     "Project1" : {
         "name" : "Portfolio website",
         "description" : "I made this website to host my portfolio and some descriptions",
-        "image" : null,
+        "images" : [],
         "url" : "https://www.github.com/",
         "myRole" : "Website Developer",
         "tech" : "Preact, Vite, SCSS",
@@ -19,7 +19,7 @@
     "Project2" : {
         "name" : "Placeholder2",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nulla in velit feugiat sollicitudin nec ornare nibh. Maecenas pharetra lacinia nulla id vehicula. Suspendisse nec consequat magna. Nunc sit amet tristique nulla. Phasellus a est aliquet, lobortis enim sed, vulputate odio. Morbi vehicula condimentum varius. Nullam nunc sapien, mattis nec erat id, auctor pharetra eros. Morbi ac ipsum lorem. Nulla imperdiet dictum lacus, in bibendum nisi bibendum ut.",
-        "image" : "https://via.placeholder.com/150",
+        "images" : ["https://via.placeholder.com/150", "https://via.placeholder.com/50", "https://via.placeholder.com/250","https://via.placeholder.com/50","https://via.placeholder.com/50","https://via.placeholder.com/50"],
         "url" : "https://www.google.com",
         "role" : "Website Developer",
         "tech" : "HTML, CSS, JavaScript, React, preact",
