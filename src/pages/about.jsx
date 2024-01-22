@@ -8,16 +8,16 @@ function About() {
         
         return (
             <>
-                {row1}<br />{row2}<br />{row3}<br />
+                {row1} <br /> <br />{row2}<br /> <br />{row3}<br />
             </>
         );
     }
     
     return (
-        <div>
+        <>
             <h1>About me</h1>
             <p>{aboutText()}</p>
-        </div>
+        </>
     );
 }
 

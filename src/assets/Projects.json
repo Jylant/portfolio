@@ -58,8 +58,8 @@
     },
     "Project4" : {
         "name" : "Brighty (because it has bright lights)",
-        "description" : "Speed test game. Made as a 1st year school group project",
-        "images" : [],
+        "description" : "Speed test game. Made as a 1st year school group project. No github repository. Provided in images an assembly example I modified from the course material. Text in pictures is in Finnish.",
+        "images" : ["./src/assets/images/brighty_poster.png", "./src/assets/images/code_example.png"],
         "url" : "",
         "role" : "Head Programmer",
         "tech" : "C++, Arduino, (assembly)",
@@ -74,7 +74,7 @@
             "task8" : "Jointly design the project presentation",
             "task9" : "Jointly design the project poster"
         },
-        "workDescription" : "As the first group project, we had to learn how to work together. The leadership role fell onto me, as I was the one who suggested the project idea, and I was the one who designed the state machine for the game logic. I think I did a good job balancing the workloads according to each member's interests and capabilities. I also created the interrupt based timer for the game logic, based on provided assembly examples. Since our project was ahead of schedule, I quickly designed and implemented a Simon Says game. I directed and helped the other group members throughout the project, and I think we did a good job. We also designed the presentation and poster together. The project had no github repository, as we didn't use any version control.",
-        "challenges" : "Stepping into the leadership role did not come naturally to me, but I think I did a good job. I had to learn how to balance the workloads and how to direct the other group members. I learned some good techniques for efficient vision communication. Implementing the interrupt based timer seemed daunting at first, but I managed to do it with the help of the provided assembly examples. Directing the other group members and alleviating their concerns was less of a challenge than I thought it would be, which I can wholeheartedly attribute to the good group dynamic we had."
+        "workDescription" : "As the first group project, we had to learn how to work together. The leadership role fell onto me, as I was the one who suggested the project idea, and I was the one who designed the state machine for the game logic. I think I did a decent job balancing the workloads according to each member's interests and capabilities. I also created the interrupt based timer for the game logic, based on provided assembly examples. Since our project was ahead of schedule, I quickly designed and implemented a Simon Says game. I directed and helped the other group members throughout the project, and I think we did a great job. We also designed the presentation and poster together. The project had no github repository, as we didn't use any version control.",
+        "challenges" : "Stepping into the leadership role did not come naturally to me, but I think I did a good job. I had to learn how to balance the workloads and how to direct the other group members. I learned some good techniques for more efficient vision communication. Implementing the interrupt based timer seemed daunting at first, but I managed to do it with the help of the provided assembly examples. Directing the other group members and alleviating their concerns was less of a challenge than I thought it would be, which I can wholeheartedly attribute to the good group dynamic we had."
     }
 }
