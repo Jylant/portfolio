@@ -17,7 +17,7 @@ const PortfolioContainer = () => {
                     description={project.description}
                     images={project.images}
                     url={project.url}
-                    myRole={project.myRole}
+                    myRole={project.role}
                     technologies={project.tech}
                     myTasks={project.tasks}
                     workDescription={project.workDescription}

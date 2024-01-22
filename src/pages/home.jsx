@@ -9,13 +9,10 @@ const disclaimer = 'These pages are only in english for now, because it\'s the m
 const Home = () => {
     return (
         <>
-        <Navbar />
         <h1>Welcome to My Portfolio</h1>
         <p>Greetings!</p>
         <p>{introduction}</p>
         <p>{disclaimer}</p>
-        {/* Add your content here */}
-        <Footer />
         </>
     );
 };

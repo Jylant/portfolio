@@ -3,33 +3,78 @@
         "name" : "Portfolio website",
         "description" : "I made this website to host my portfolio and some descriptions",
         "images" : [],
-        "url" : "https://www.github.com/",
-        "myRole" : "Website Developer",
+        "url" : "https://github.com/Jylant/portfolio",
+        "role" : "Website Developer",
         "tech" : "Preact, Vite, SCSS",
         "tasks" : {
             "task1" : "Design website",
             "task2" : "Create website as a SPA",
             "task3" : "Troubleshoot information flow",
-            "task4" : "Write descriptions & link projects",
-            "task5" : "publish website on github pages"
+            "task4" : "Fix portfolio page layout",
+            "task5" : "Write descriptions & link projects",
+            "task6" : "publish website on github pages"
         },
-        "workDescription" : "Solo dev venture",
-        "challenges" : "My greatest challenge lied in employing the same techniques and technologies I didn't have time to properly implement for my part of the work in the previous school project, namely preact signals. My first approach was too complicated in nature, but I'm really satisfied with the finished product"
+        "workDescription" : "Solo dev venture. I wanted to show that I can use preact signals, which was left incomplete in the showtime squad project. A portfolio website seemed like a useful way to do that.",
+        "challenges" : "My greatest challenge lied in employing the same techniques and technologies I didn't have time to properly implement for my part of the work in the showtime squad school project, namely preact signals. My first approach was too complicated in nature, but I'm really satisfied with the finished product"
     },
     "Project2" : {
-        "name" : "Placeholder2",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nulla in velit feugiat sollicitudin nec ornare nibh. Maecenas pharetra lacinia nulla id vehicula. Suspendisse nec consequat magna. Nunc sit amet tristique nulla. Phasellus a est aliquet, lobortis enim sed, vulputate odio. Morbi vehicula condimentum varius. Nullam nunc sapien, mattis nec erat id, auctor pharetra eros. Morbi ac ipsum lorem. Nulla imperdiet dictum lacus, in bibendum nisi bibendum ut.",
-        "images" : ["https://via.placeholder.com/150", "https://via.placeholder.com/50", "https://via.placeholder.com/250","https://via.placeholder.com/50","https://via.placeholder.com/50","https://via.placeholder.com/50"],
-        "url" : "https://www.google.com",
-        "role" : "Website Developer",
-        "tech" : "HTML, CSS, JavaScript, React, preact",
+        "name" : "Showtime-Squad",
+        "description" : "Website for movies and tv shows. Made as a 2nd year school project",
+        "images" : [],
+        "url" : "https://github.com/TVT22-3/showtime-squad",
+        "role" : "Fullstack Developer",
+        "tech" : "HTML, CSS, JavaScript, React, preact, Java, Spring, postgreSQL",
         "tasks" : {
-            "task1" : "Design simple and responsive layout",
-            "task2" : "Create website as a SPA",
-            "task3" : "Add functionality to website",
-            "task4" : "Release website"
+            "task1" : "Plan the database structure and ER diagram",
+            "task2" : "Design navbar",
+            "task3" : "Structure API calls between TMDB and our backend",
+            "task4" : "Design user created lists backend",
+            "task5" : "Design user created lists frontend(incomplete)",
+            "task6" : "Postman testing and documentation for user created lists",
+            "task7" : "Miscaellaneous bugfixes and helping others with their tasks"
         },
-        "workDescription" : "Description of my work goes here",
-        "challenges" : "Challenges I faced go here"
+        "workDescription" : "My first responsibility was to create the database structure and ER diagram. I then proceeded to design the navbar and structure the API calls between TMDB and our backend. I also designed the backend for user created lists, but didn't have time to finish the frontend for it. In between my tasks I helped others a little with their tasks and did miscellaneous bugfixes. There was also a discarded plan for more detailed automated testing for the database, which was dropped.",
+        "challenges" : "I chose to start with the ER diagram because I had had some trouble with relation databases previously. I found the task easier than I thought it would be, and I'm gkad having done it. The biggest challenge was the user created lists, which I didn't have time to finish. I had to learn a lot about how to structure the backend for it with JAVA and Spring, and I didn't have time to finish the frontend for it. I'm still happy with the work I did on it, and I'm glad I got to learn more about JAVA and Spring."
+    },
+    "Project3" : {
+        "name" : "BankSimul",
+        "description" : "ATM simulator. Made as a 1st year school group project",
+        "images" : ["./src/assets/images/project_poster.png"],
+        "url" : "https://github.com/Banksimul2023-22SPL/group_6/",
+        "role" : "Fullstack Developer and de facto project coordinator",
+        "tech" : "MySQL, C++, Qt, (javascript)",
+        "tasks" : {
+            "task1" : "Jointly ascertain the project requirements for the project from the requirements definition document",
+            "task2" : "Design State Machine for ATM",
+            "task3" : "Design database structure and ER diagram",
+            "task4" : "Create part of the relation tables for the database with SQL",
+            "task5" : "Jointly create backend for the ATM with JavaScript from example code",
+            "task6" : "Frontend account balance and event log pages with Qt (C++)",
+            "task7" : "Coordinate the project and help others with their tasks",
+            "task8" : "Miscellaneous bugfixes"
+        },
+        "workDescription" : "I had the most clear vision of the finished product, so I was the one who designed the state machine for the ATM. We designed the database structure and ER diagram together. For the frontend I was responsible for the balance and event log pages. I also helped others with their tasks and did miscellaneous bugfixes. We kind of forgot to do a proper readme.",
+        "challenges" : "The first challenge was to communicate my vision for the finished product to the other group members, which I started with a diagram for the state machine. The greatest challenge for me was using the database information in the frontend, as I had had little to no experience with Qt signals and slots before this project. I had some trouble with getting the data to show up properly, but the process was very educational. I can say that I learned a lot about debugging and using Qt, including signals and slots."
+    },
+    "Project4" : {
+        "name" : "Brighty (because it has bright lights)",
+        "description" : "Speed test game. Made as a 1st year school group project",
+        "images" : [],
+        "url" : "",
+        "role" : "Head Programmer",
+        "tech" : "C++, Arduino, (assembly)",
+        "tasks" : {
+            "task1" : "Jointly choose the project idea to work on",
+            "task2" : "Jointly determine the hardware requirements and budget for the project",
+            "task3" : "Design state machine for the game logic",
+            "task4" : "Assign workloads to other team members and coordinate the project",
+            "task5" : "Create an interrupt based timer for the game logic implementing provided assembly examples",
+            "task6" : "Create the game logic with Arduino C++",
+            "task7" : "Design and create a Simon Says side game with Arduino C++",
+            "task8" : "Jointly design the project presentation",
+            "task9" : "Jointly design the project poster"
+        },
+        "workDescription" : "As the first group project, we had to learn how to work together. The leadership role fell onto me, as I was the one who suggested the project idea, and I was the one who designed the state machine for the game logic. I think I did a good job balancing the workloads according to each member's interests and capabilities. I also created the interrupt based timer for the game logic, based on provided assembly examples. Since our project was ahead of schedule, I quickly designed and implemented a Simon Says game. I directed and helped the other group members throughout the project, and I think we did a good job. We also designed the presentation and poster together. The project had no github repository, as we didn't use any version control.",
+        "challenges" : "Stepping into the leadership role did not come naturally to me, but I think I did a good job. I had to learn how to balance the workloads and how to direct the other group members. I learned some good techniques for efficient vision communication. Implementing the interrupt based timer seemed daunting at first, but I managed to do it with the help of the provided assembly examples. Directing the other group members and alleviating their concerns was less of a challenge than I thought it would be, which I can wholeheartedly attribute to the good group dynamic we had."
     }
 }
