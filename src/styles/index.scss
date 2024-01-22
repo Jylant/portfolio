@@ -3,8 +3,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  color: #5ee1d2de;
-  background-color: #1b0432;
+  color: #40eeba;
+  background-color: #220945;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +28,9 @@ body {
   }
   p {
     font-family: serif;
+    color: #4ecba5;
+    margin-bottom: 15px;
+    text-shadow: inset #961ef9b6 0px 0px 3px;
     font-size: 1.2em;
     line-height: 1.3;
   }
