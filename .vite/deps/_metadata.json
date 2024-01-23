@@ -1,0 +1,43 @@
+{
+  "hash": "ebc879eb",
+  "configHash": "3928dd67",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "7e58be30",
+  "optimized": {
+    "@preact/signals": {
+      "src": "../../node_modules/@preact/signals/dist/signals.module.js",
+      "file": "@preact_signals.js",
+      "fileHash": "ec197bee",
+      "needsInterop": false
+    },
+    "preact": {
+      "src": "../../node_modules/preact/dist/preact.module.js",
+      "file": "preact.js",
+      "fileHash": "1407f475",
+      "needsInterop": false
+    },
+    "preact-router": {
+      "src": "../../node_modules/preact-router/dist/preact-router.mjs",
+      "file": "preact-router.js",
+      "fileHash": "ca978d40",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "f568a376",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-3DX4SQKH": {
+      "file": "chunk-3DX4SQKH.js"
+    },
+    "chunk-GKN43OMQ": {
+      "file": "chunk-GKN43OMQ.js"
+    },
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #95d0f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    .nav-item {
+      margin-right: 1rem;
+      text-decoration: none;
+      font-family: 'magneto', serif;
+      color: #666;
+      :hover {
+        color: #333;
+      }
+    }
+  }
+}
