@@ -39,7 +39,7 @@
     "Project3" : {
         "name" : "BankSimul",
         "description" : "ATM simulator. Made as a 1st year school group project",
-        "images" : ["./src/assets/images/project_poster.png"],
+        "images" : ["./images/project_poster.png"],
         "url" : "https://github.com/Banksimul2023-22SPL/group_6/",
         "role" : "Fullstack Developer and de facto project coordinator",
         "tech" : "MySQL, C++, Qt, (javascript)",
@@ -59,7 +59,7 @@
     "Project4" : {
         "name" : "Brighty (because it has bright lights)",
         "description" : "Speed test game. Made as a 1st year school group project. No github repository. Provided in images an assembly example I modified from the course material. Text in pictures is in Finnish.",
-        "images" : ["./src/assets/images/brighty_poster.png", "./src/assets/images/code_example.png"],
+        "images" : ["./images/brighty_poster.png", "./images/code_example.png"],
         "url" : "",
         "role" : "Head Programmer",
         "tech" : "C++, Arduino, (assembly)",
