@@ -1,11 +1,11 @@
 import React from 'react';
-import { Fragment } from 'preact';
 
 const ProjectBlock = (
     {
         title,
         description,
         images,
+        altText,
         url,
         myRole,
         technologies,
@@ -20,7 +20,7 @@ const ProjectBlock = (
                 <p>{description}</p>
                 <ul className='pics'>
                     {images.map((image, index) => (
-                        <li key={index}><img src={image} alt={title} /><br /></li>
+                        <li key={index}><img src={image} alt={altText[index]} /><br /></li>
                     ))}
                 </ul>
                 <a href={url}>Visit Project</a>
