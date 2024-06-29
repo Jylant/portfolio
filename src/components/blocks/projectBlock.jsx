@@ -20,7 +20,7 @@ const ProjectBlock = (
                 <p>{description}</p>
                 <ul className='pics'>
                     {images.map((image, index) => (
-                        <li key={index}><img src={image} alt={title} /><br /></li>
+                        <li key={index}><img src={image} alt={"See image in portfolioPage repo on github"} /><br /></li>
                     ))}
                 </ul>
                 <a href={url}>Visit Project</a>
