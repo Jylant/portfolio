@@ -12,7 +12,7 @@
             "task3" : "Troubleshoot information flow",
             "task4" : "Fix portfolio page layout",
             "task5" : "Write descriptions & link projects",
-            "task6" : "publish website on github pages"
+            "task6" : "publish the portfolio website",
         },
         "workDescription" : "Solo dev venture. I wanted to show that I can use preact signals, which was left incomplete in the showtime squad project. A portfolio website seemed like a useful way to do that.",
         "challenges" : "My greatest challenge lied in employing the same techniques and technologies I didn't have time to properly implement for my part of the work in the showtime squad school project, namely preact signals. My first approach was too complicated in nature, but I'm really satisfied with the finished product"
