@@ -1,7 +1,7 @@
 import { Fragment } from 'preact';
 import ProjectBlock from '../blocks/projectBlock.jsx';
 import { signal } from '@preact/signals';
-import projectData from '../../assets/projects.json';
+import projectData from '../../assets/Projects.json';
 
 const projectSignal = signal(projectData);
 
